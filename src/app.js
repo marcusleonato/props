@@ -25,7 +25,7 @@ class App extends Component {
       <div>
         {this.state.showTimer && <Timer timer={this.state.time} />}
         <button onClick={() => {
-          this.setState({ time: this.state.time + 10 })
+          this.setState({ timer: this.state.time + 10 })
         }}>Change props</button>
       </div>
     )
